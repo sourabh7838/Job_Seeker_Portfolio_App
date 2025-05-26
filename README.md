@@ -121,9 +121,9 @@ npx expo start
 ## Screenshots
 
 ### Home Screen/About Me
-![image](https://github.com/user-attachments/assets/8a2a319f-a4f3-4b24-a586-8c48853d7676)
+<img width="158" alt="image" src="https://github.com/user-attachments/assets/2c871ab1-4611-43cf-b967-07cf6e28ac13" />
 
-![image](https://github.com/user-attachments/assets/55500f57-faa2-47cd-9dd0-948ed513e791)
+<img width="158" alt="image" src="https://github.com/user-attachments/assets/8c188ebd-76a8-47c4-be5e-ff9aac6d352d" />
 
 The main entry screen that provides an overview of the app’s content. Users can navigate to different sections like About, Skills, Projects, Testimonials, and Contact through a bottom tab bar or buttons on this page. It acts as a dashboard for the entire portfolio.
 
