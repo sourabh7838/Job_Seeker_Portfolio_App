@@ -167,7 +167,7 @@ Skills page shows a list of the user's skills with corresponding proficiency lev
 
 <img width="167" alt="image" src="https://github.com/user-attachments/assets/8240fe13-b4cb-434d-87cb-194f4975eec3" />
 
-![image](https://github.com/user-attachments/assets/114967b3-1a37-4eaf-82cb-0b54f7904c72)
+<img width="167" alt="image" src="https://github.com/user-attachments/assets/114967b3-1a37-4eaf-82cb-0b54f7904c72" />
 
 This Page presents an overview of the user’s personal or professional projects. Each project card includes a project name, description, technologies used, and optionally, links to GitHub or live demos.
 
@@ -185,7 +185,7 @@ Interview Details
 - Set reminders and notification for upcoming interviews
 
 ### Contact
-![image](https://github.com/user-attachments/assets/dfc8948b-c630-4279-8694-77209202639d)
+<img width="147" alt="image" src="https://github.com/user-attachments/assets/dfc8948b-c630-4279-8694-77209202639d" />
 
 This page lists contact details such as email, phone number, LinkedIn, GitHub, and an option to download the resume. Icons are used for quick access to each contact method.
 
