@@ -128,16 +128,13 @@ npx expo start
 The main entry screen that provides an overview of the app’s content. Users can navigate to different sections like About, Skills, Projects, Testimonials, and Contact through a bottom tab bar or buttons on this page. It acts as a dashboard for the entire portfolio.
 
 ### Add/Edit
-![image](https://github.com/user-attachments/assets/fde0d57f-4e2b-4eb7-ad0d-2eb8ce320582)
+<img width="158" alt="image" src="https://github.com/user-attachments/assets/a054e111-f008-4951-aef5-18c0d9c93d00" />
 
+<img width="158" alt="image" src="https://github.com/user-attachments/assets/e6175554-57c5-4223-8480-f745bc6cecea" />
 
-![image](https://github.com/user-attachments/assets/e6175554-57c5-4223-8480-f745bc6cecea)
+<img width="158" alt="image" src="https://github.com/user-attachments/assets/2648a738-f0db-49c5-8d21-5e87b04f2b15" />
 
-
-![image](https://github.com/user-attachments/assets/2648a738-f0db-49c5-8d21-5e87b04f2b15)
-
-
-![image](https://github.com/user-attachments/assets/21a12e92-4202-4817-949d-1ffce9c8bfa1)
+<img width="158" alt="image" src="https://github.com/user-attachments/assets/21a12e92-4202-4817-949d-1ffce9c8bfa1" />
 
 
 This screen displays the user’s basic profile, including a profile photo, name, job title, a short introduction, and key details that define the user's personal brand.
