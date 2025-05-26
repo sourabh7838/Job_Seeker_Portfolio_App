@@ -14,7 +14,7 @@ import {
   TouchableWithoutFeedback,
 } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
-import { useTheme, darkColors, lightColors } from './ThemeContext';
+import { useTheme, darkColors, lightColors } from '../contexts/ThemeContext';
 import DateTimePicker from '@react-native-community/datetimepicker';
 import {
   Interview,
@@ -23,7 +23,7 @@ import {
   addInterviewQuestion,
   addTechnicalTopic,
   updateInterviewStatus,
-} from './InterviewTracker';
+} from '../utils/InterviewTracker';
 
 const InterviewDetailScreen = ({ route, navigation }) => {
   const { interview: initialInterview } = route.params;

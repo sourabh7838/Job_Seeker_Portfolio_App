@@ -1,7 +1,7 @@
-# Interview Tracker App
+# Job Seeker Portfolio
 
 ## Overview
-The Interview Tracker App is a modern mobile application built with React Native and Dart that helps job seekers manage their interview process effectively. It provides a clean, intuitive interface for tracking interview schedules, managing statuses, and generating PDF reports.
+The Job Seeker Portfolio App is a modern mobile application built with React Native and Dart that helps job seekers manage their interview process effectively. It provides a clean, intuitive interface for tracking interview schedules, managing statuses, and generating PDF reports.
 
 ## Features
 
@@ -47,30 +47,34 @@ The Interview Tracker App is a modern mobile application built with React Native
 - expo-constants
 
 ## Project Structure
+
 ```
-interview-tracker/
-├── App.js                    # Application entry point
-├── src/
-│   ├── components/          # Reusable UI components
-│   │   ├── InterviewCard.js      # Interview list item
-│   │   ├── InterviewForm.js      # Add/Edit interview form
-│   │   ├── InterviewModal.js     # Interview details modal
-│   │   └── StatusButton.js       # Status toggle button
-│   ├── screens/
-│   │   ├── HomeScreen.js         # Main interview list
-│   │   └── DetailsScreen.js      # Interview details view
-│   ├── providers/
-│   │   └── InterviewProvider.js  # Interview state management
-│   ├── database/
-│   │   └── database.js           # SQLite setup and queries
-│   ├── utils/
-│   │   ├── dateUtils.js          # Date formatting helpers
-│   │   └── pdfGenerator.js       # PDF generation logic
-│   └── constants/
-│       ├── colors.js             # Color definitions
-│       └── styles.js             # Common styles
-└── app.json                  # Expo configuration
+src/
+├── components/       # Reusable UI components
+├── screens/         # Screen components
+├── hooks/           # Custom React hooks
+├── contexts/        # React context providers
+├── utils/          # Utility functions and helpers
+├── services/       # Service layer (API, database, etc.)
+│   └── database/   # Database related code
+├── config/         # Configuration files
+├── assets/         # Static assets
+│   ├── images/     # Image files
+│   └── icons/      # Icon files
+└── App.js          # Root component
+
 ```
+
+## Key Directories
+
+- `src/components/`: Contains all reusable UI components
+- `src/screens/`: Contains all screen-level components
+- `src/hooks/`: Custom React hooks for shared logic
+- `src/contexts/`: React context providers for state management
+- `src/utils/`: Helper functions and utility code
+- `src/services/`: Service layer implementation
+- `src/config/`: Configuration files and constants
+- `src/assets/`: Static assets like images and icons
 
 ## Setup Instructions
 
@@ -185,9 +189,3 @@ Professional client-facing interface featuring:
 - Responsive interactions
 - Platform-specific adaptations
 - Error handling and validation
-
-## Contributing
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## License
-This project is licensed under the MIT License - see the LICENSE file for details. 

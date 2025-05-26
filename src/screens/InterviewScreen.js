@@ -17,8 +17,8 @@ import {
   TouchableWithoutFeedback,
 } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
-import { useTheme, darkColors, lightColors } from './ThemeContext';
-import { Interview, InterviewStatus, saveInterview, getInterviews, deleteInterview, updateInterviewStatus } from './InterviewTracker';
+import { useTheme, darkColors, lightColors } from '../contexts/ThemeContext';
+import { Interview, InterviewStatus, saveInterview, getInterviews, deleteInterview, updateInterviewStatus } from '../utils/InterviewTracker';
 import DateTimePicker from '@react-native-community/datetimepicker';
 import * as Notifications from 'expo-notifications';
 

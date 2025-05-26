@@ -14,8 +14,8 @@ import {
   Linking,
 } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
-import { sharePortfolio } from './ProfileUtils';
-import { useTheme, darkColors, lightColors } from './ThemeContext';
+import { sharePortfolio } from '../utils/ProfileUtils';
+import { useTheme, darkColors, lightColors } from '../contexts/ThemeContext';
 
 const ImageWithLoading = ({ source, style, resizeMode = 'cover' }) => {
   const [loading, setLoading] = useState(true);

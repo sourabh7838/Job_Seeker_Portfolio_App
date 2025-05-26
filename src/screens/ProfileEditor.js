@@ -14,8 +14,8 @@ import {
 } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import * as ImagePicker from 'expo-image-picker';
-import { useTheme, darkColors, lightColors } from './ThemeContext';
-import { useProfile } from './useProfile';
+import { useTheme, darkColors, lightColors } from '../contexts/ThemeContext';
+import { useProfile } from '../hooks/useProfile';
 
 const Section = ({ title, children, style }) => {
   const { isDarkMode } = useTheme();

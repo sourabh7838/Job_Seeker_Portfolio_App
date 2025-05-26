@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import DatabaseManager from './database/DatabaseManager';
+import DatabaseManager from '../services/database/DatabaseManager';
 
 // Default profile data
 const defaultProfile = {
@@ -45,7 +45,7 @@ const defaultProfile = {
       description: 'Developed this React Native application to showcase my skills and projects.',
       longDescription: "This very application serves as a testament to my React Native abilities...",
       technologies: ['React Native', 'Expo', 'JavaScript', 'React Navigation', 'Context API'],
-      image: require('./assets/profile.png'),
+      image: require('../assets/images/i2.png'),
       link: null,
       valueAdded: "Demonstrates initiative, React Native fundamentals..."
     }

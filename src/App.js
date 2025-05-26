@@ -22,18 +22,18 @@ import { StatusBar } from 'expo-status-bar';
 import { SafeAreaProvider, useSafeAreaInsets } from 'react-native-safe-area-context';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { createStackNavigator } from '@react-navigation/stack';
-import ClientView from './ClientView';
-import ProfileEditor from './ProfileEditor';
-import { ThemeContext, useTheme, lightColors, darkColors } from './ThemeContext';
-import { useProfile } from './useProfile';
-import InterviewScreen from './InterviewScreen';
-import InterviewDetailScreen from './InterviewDetailScreen';
+import ClientView from './screens/ClientView';
+import ProfileEditor from './screens/ProfileEditor';
+import { ThemeContext, useTheme, lightColors, darkColors } from './contexts/ThemeContext';
+import { useProfile } from './hooks/useProfile';
+import InterviewScreen from './screens/InterviewScreen';
+import InterviewDetailScreen from './screens/InterviewDetailScreen';
 
 // --- 1. PORTFOLIO DATA (Added Certificates and Resume URL) ---
 const personalInfo = {
-  name: "Chauhan",
+  name: "Group 2",
   title: "Aspiring React Native Developer",
-  profileImage: require('./assets/profile.png'),
+  profileImage: require('./assets/icons/profile.png'),
   bio: "A passionate and driven individual seeking opportunities to leverage skills in mobile development. Eager to contribute to innovative projects and grow within a dynamic team. My goal is to build intuitive and impactful mobile experiences.",
   education: [
     {
@@ -96,7 +96,7 @@ const projects = [
     description: 'Developed this React Native application to showcase my skills and projects.',
     longDescription: "This very application serves as a testament to my React Native abilities...",
     technologies: ['React Native', 'Expo', 'JavaScript', 'React Navigation', 'Context API'],
-    image: require('./assets/profile.png'),
+    image: require('./assets/images/i2.png'),
     link: null,
     valueAdded: "Demonstrates initiative, React Native fundamentals..."
   },
@@ -106,7 +106,7 @@ const projects = [
     description: 'Designed and conceptualized a task management application...',
     longDescription: "This project involved user research to identify pain points...",
     technologies: ['Figma (for design)', 'User Research', 'Prototyping'],
-    image: require('./assets/profile.png'),
+    image: require('./assets/images/i3.png'),
     link: null,
     valueAdded: "Highlights UI/UX thinking, problem-solving..."
   },
@@ -304,7 +304,7 @@ const AboutScreen = ({ navigation }) => {
     );
   }
 
-  const defaultImage = require('./assets/profile.png');
+  const defaultImage = require('./assets/icons/profile.png');
   const profileImageSource = profile.profileImage || defaultImage;
 
   return (
